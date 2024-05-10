@@ -1,11 +1,20 @@
-import Header from "./Header"
+
 import Footer from "./Footer";
+import Nav from "./Nav";
+import Content from "./Content";
+
 function App() {
   
   return(
     <>
-    <Header/>
-    <Footer/>
+    <div className="App">
+      <div className="Container">
+        <Nav/>
+        <Content/>
+        <Footer/>
+      </div>
+    </div>
+
     </>
   );
 }
