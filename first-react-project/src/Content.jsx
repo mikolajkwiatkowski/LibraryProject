@@ -1,6 +1,14 @@
 function Content(){
     return(
-            <p className="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quidem praesentium facere id ab! Culpa debitis temporibus eius atque porro non soluta incidunt dignissimos eum repellendus iure, vitae laborum voluptates?</p>
+        <div className="content">
+            <div className="catalog">
+                <p>Tu będzie katalog</p>
+            </div>
+            <div className="right-panel">
+                <p>To jest menu sortowania</p>
+            </div>
+           
+        </div>    
     );
 
     
