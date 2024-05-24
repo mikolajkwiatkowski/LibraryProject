@@ -19,6 +19,24 @@
     bottom: 0; /* Add bottom: 0 to keep it at the bottom */
     width: 100%; /* Set width to 100% */
 }
+.obrazek{
+    width: fit-content;
+    height: 200px ;
+    
+}
+.card
+{
+    height: 350px;
+    width: 225px;
+    border: #180221 solid ;
+    margin: auto;
+    line-height: 10px;
+    background-color: rgb(251, 255, 218);
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
 .content
 {
     display:flex;
@@ -28,15 +46,17 @@
     
 }
 .catalog {
-    
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
     border: rgb(8, 0, 255) 1px solid;
     background-color: white;
     width: 75%;
+    align-items: flex-start; /* Karty będą wyrównane do góry kontenera */
+    overflow: auto ;
 }
+
+
 .right-panel
 {
     display: flex;
